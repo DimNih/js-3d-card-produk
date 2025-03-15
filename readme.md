@@ -6,4 +6,4 @@ web untuk menampilkan produk dengan model 3D dan efek neon.
 - Model 3D interaktif
 
 ## Prepiew
-![preview](test.png)
+![preview](test.gif)
