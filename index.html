@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our premium keyboard collection with 3D interactive models">
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+    <title>Produk Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" id="product-container">
+      
+        <div class="card" style="--accent: #7da072;">
+            <div class="overflow">
+                <div class="model">
+                    <model-viewer camera-orbit="64deg 25deg 64m" src="https://assets.codepen.io/3421562/leaves_keyboard.glb" shadow-intensity="0.4"></model-viewer>
+                </div>
+            </div>
+            <div class="glass"></div>
+            <div class="content">
+                <h2>LeafKey</h2>
+                <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <div class="rating">
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">★</span>
+                    <span class="star">☆</span>
+                </div>
+                <div class="price">$129.99</div>
+                <div class="options">
+                    <div onclick="changeModelStyle(this, 0)" style="background: #f2c173;"></div>
+                    <div onclick="changeModelStyle(this, 60)" style="background: #96dd78;"></div>
+                    <div onclick="changeModelStyle(this, 110)" style="background: #6ee5bc;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="bekend.js"></script>
+</body>
+</html>
